@@ -1,1 +1,21 @@
-### Install the Kafkacat Utlility ###
+### Install the Kafkacat Utlility inthe CentOs 7 ###
+
+Mandatory dependencies package to install git, gcc, librdkafka-devel ,librdkafka ,openssl-devel , cyrus-sasl etc.,
+
+Step 01:
+
+# git clone git@github.com:edenhill/kafkacat.git
+
+Step 02:
+
+Change the directory 
+
+#cd kafkacat
+
+Step 03 :
+
+# sudo ./configure
+
+Step 04 :
+
+# sudo make
