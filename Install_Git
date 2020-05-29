@@ -1,0 +1,32 @@
+#Install and configure the Git in the CentOs7 #
+
+Step01:
+
+Install the git packages: 
+
+sudo yum install git
+
+Step 02:
+
+Verify the git Installated successfully or not :
+
+git --version
+
+Step03:
+
+Its madatory to add the personal information (such as your name,email ..etc):
+
+git config --global user.name "Your Name"
+git config --global user.email "emailaddress@domain.com"
+
+Step04:
+
+To verify the above configuration changes:
+
+git config --list
+
+configuration settings are  stored in the ~/.gitconfig file
+
+cat ~/.gitconfig
+
+
